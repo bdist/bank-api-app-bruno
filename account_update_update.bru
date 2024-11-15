@@ -1,0 +1,15 @@
+meta {
+  name: account_update_update
+  type: http
+  seq: 3
+}
+
+put {
+  url: http://127.0.0.1:8080/accounts/A-217/update?balance=1000
+  body: none
+  auth: none
+}
+
+query {
+  balance: 1000
+}
